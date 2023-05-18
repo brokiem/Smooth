@@ -1,2 +1,2 @@
 # Smooth
-A nice Discord custom theme CSS
+A nice, simple and clean Discord custom theme
