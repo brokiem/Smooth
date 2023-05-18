@@ -971,9 +971,7 @@
   pointer-events: none;
 }
 
-:root ::-webkit-input-placeholder, :root body, :root button, :root input, :root select, :root textarea {
-  font-family: "gg sans", serif !important;
-}
+
 :root button, :root input, :root textarea, :root .item-3XjbnG:not([class^=tabBarItem-]), :root .menu-1QACrS {
   border-radius: var(--border-radius) !important;
 }
