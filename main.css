@@ -1143,3 +1143,7 @@
 :root .container-3wLKDe {
   background-color: var(--background-primary);
 }
+
+:root .container-1zzFcN {
+  border-bottom: 0 transparent;
+}
