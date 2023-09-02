@@ -5,8 +5,7 @@
 * @version 1.0
 * @donate https://paypal.me/brokiem
 */
-
-@import url("https://cdn.jsdelivr.net/gh/brokiem/Smooth/main.min.css");
+@import url("https://brokiem.is-a.dev/Smooth/main.css");
 
 :root {
     --border-radius: 5px;
