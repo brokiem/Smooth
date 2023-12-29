@@ -80,7 +80,7 @@
 
 /* Autocomplete */
 :root .wrapper__4e8f1, .wrapper_cd625e, .autocomplete_df266d {
-    background-color: var(--background-primary)
+    background-color: var(--background-primary);
 }
 
 :root .autocomplete_df266d, .categoryHeader_f97a5f {
