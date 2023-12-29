@@ -2,20 +2,20 @@
 * @name Smooth
 * @author brokiem
 * @description A nice, simple and clean Discord custom theme
-* @version 1.0
+* @version 1.0.0
 * @donate https://paypal.me/brokiem
 */
-@import url("https://brokiem.is-a.dev/Smooth/main.css");
+@import url("https://brokiem.github.io/Smooth/main.css");
 
 :root {
+    --user-profile-picture-border-radius: 10px;
     --border-radius: 5px;
+    --background-embed: #272727;
 }
 
 .theme-dark {
-    --embed: #272727;
-
-    --background-primary: rgb(20,20,20);
-    --background-secondary: #1A1A1A;
+    --background-primary: #131313;
+    --background-secondary: #1a1a1a;
     --background-secondary-alt: rgb(15,15,15);
     --background-tertiary: rgb(10,10,10);
     --background-floating: rgb(0,0,0);
@@ -27,6 +27,5 @@
     --scrollbar-thin-thumb: var(--background-secondary-alt);
     --scrollbar-thin-track: transparent;
 
-    --channel-text-area-placeholder: var(--interactive-normal);
-    --deprecated-quickswitcher-input-background: var(--background-primary);
+    --channeltextarea-background: #272727;
 }
