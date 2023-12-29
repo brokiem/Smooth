@@ -66,6 +66,22 @@
     background: rgba(39, 39, 39, 0);
     backdrop-filter: blur(2px);
 }
+/* Autocomplete */
+:root .wrapper__4e8f1, .wrapper_cd625e, .autocomplete_df266d {
+    background-color: var(--background-embed);
+}
+:root .autocomplete_df266d, .categoryHeader_f97a5f {
+    background-color: var(--background-secondary);
+}
+/* Searchbar */
+:root .searchBar_e0c60b {
+    background-color: var(--background-secondary);
+}
+
+/* Titlebar */
+:root .wordmark__0d178 {
+    display: none;
+}
 
 /* Unnecessary */
 :root [href="https://support.discord.com"] {
