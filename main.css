@@ -3,10 +3,12 @@
 :root .container__7c79d {
     background-color: #303030;
 }
+
 /* Messages header */
 :root .container__11d72 {
     background-color: #272727;
 }
+
 /* Remove weird shadow */
 .children__32014::after {
     content: none !important;
@@ -22,13 +24,16 @@
 :root .panels__58331 {
     border-top: var(--background-accent) 1px solid;
 }
+
 :root .panels__58331 .container_ca50b9 {
     background-color: var(--background-secondary);
 }
+
 /* Voice controls */
 :root .container_d667ff {
     background-color: var(--background-secondary);
 }
+
 /* Voice control icons */
 :root .button__66e8c {
     background-color: var(--background-accent);
@@ -39,40 +44,49 @@
     border-left: 2px solid var(--background-embed);
     background-color: var(--background-embed);
 }
+
 /* Invite */
 :root .wrapper_efe67f {
     background-color: var(--background-embed);
 }
+
 /* Code */
 :root .hljs {
     background-color: var(--background-embed);
     border: none;
 }
+
 /* Channel selected / hovered */
 :root .modeSelected__487d6 .link__95dc0, .modeSelected__487d6:hover .link__95dc0 {
     background-color: var(--background-accent);
 }
+
 /* Thread channel background */
 :root .container_b181b6 {
     background-color: var(--background-primary);
 }
+
 /* Thread channel card */
 :root .mainCard__8a660 {
     background-color: var(--background-embed);
 }
+
 /* Thread channel card text container */
 :root .textContentFooter__5a630 {
     /* Add blur to make foreground more visible */
     background: rgba(39, 39, 39, 0);
     backdrop-filter: blur(2px);
 }
+
 /* Autocomplete */
 :root .wrapper__4e8f1, .wrapper_cd625e, .autocomplete_df266d {
     background-color: var(--background-embed);
 }
+
 :root .autocomplete_df266d, .categoryHeader_f97a5f {
     background-color: var(--background-secondary);
 }
+
 /* Searchbar */
 :root .searchBar_e0c60b {
     background-color: var(--background-secondary);
@@ -83,7 +97,42 @@
     display: none;
 }
 
+.platform-win .typeWindows__5fa63 {
+    margin-top: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: transparent;
+}
+
+.platform-win .winButton__88672 {
+    position: relative;
+    height: 48px !important;
+    width: 40px;
+}
+
+.winButton__88672 {
+    top: 0 !important;
+}
+
+.container__7c79d, .platform-win .container__11d72, .newMessagesBar__8b6d7 {
+    top: 0 !important;
+}
+
+.platform-win #app-mount .typeWindows__5fa63::before {
+    content: none !important;
+}
+
+/* Toolbar */
+:root .toolbar__88c63 {
+    margin-right: 120px;
+}
+
 /* Unnecessary */
 :root [href="https://support.discord.com"] {
+    display: none;
+}
+
+:root [aria-label="Notification Settings"] {
     display: none;
 }
