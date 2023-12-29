@@ -80,7 +80,7 @@
 
 /* Autocomplete */
 :root .wrapper__4e8f1, .wrapper_cd625e, .autocomplete_df266d {
-    background-color: var(--background-embed);
+    background-color: var(--background-primary)
 }
 
 :root .autocomplete_df266d, .categoryHeader_f97a5f {
@@ -89,6 +89,26 @@
 
 /* Searchbar */
 :root .searchBar_e0c60b {
+    background-color: var(--background-secondary);
+}
+
+:root .container_e4c233 {
+    background-color: var(--background-primary);
+}
+
+/* Thread */
+:root .container__767d1 {
+    background-color: var(--background-embed);
+}
+
+:root .container__6604b {
+    background-color: var(--background-embed);
+    border: 0;
+}
+
+/* Emoji inspector */
+:root .inspector__993e1 {
+    border-top: 1px solid var(--background-secondary-alt);
     background-color: var(--background-secondary);
 }
 
